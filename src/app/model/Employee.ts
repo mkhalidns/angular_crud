@@ -4,6 +4,7 @@ export class EmployeeModel{
     city: string;
     state: string;
     emailId:string;
+    pinCode:string;
     contactNo:string;
     address:string;
 
@@ -13,6 +14,7 @@ export class EmployeeModel{
     this.city='';
     this.state='';
     this.emailId='';
+    this.pinCode='';
     this.contactNo='';
     this.address='';
 
